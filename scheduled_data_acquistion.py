@@ -10,7 +10,7 @@ def scheduled_run():
     while(True):
         i=i+1
         print('You can leave now\n')        
-        time.sleep(3600)
+        time.sleep(10800)
         print('Program Running \n\n\n')
         data_acquisition.main()
         print('Data acquistion #'+str(i)+' done.')
